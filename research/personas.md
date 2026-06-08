@@ -1,95 +1,111 @@
 # User Personas — Hospital Queue Management Platform
 
-> **Based on:** Secondary research + domain knowledge | **Primary research:** In progress
-> **Last updated:** 2024 | **Author:** Dennis Karani Njoroge
+**Author:** Karani Njoroge
+**Date:** June 2026
+**Based On:** 6 user interviews
 
 ---
 
-## Persona 1 — The Working Parent
+## Persona 1 — The Patient
 
-**Name:** Amina, 34
-**Occupation:** Secondary school teacher, Nairobi
-**Location:** Embakasi, Nairobi
-**Primary device:** Safaricom smartphone (WhatsApp, M-Pesa, basic browsing)
+### "Mama Jane" — The Uncertain Waiter
 
-### Background
-Amina has two children and works 6 days a week. She attends KNH for her chronic hypertension management — requiring OPD visits every 2–3 months. She cannot easily take time off work and often brings her youngest child to appointments.
-
-### Goals
-- Get her appointment completed without missing a full day of school
-- Know in advance how long she will wait so she can plan childcare
-- Not lose her place in the queue if she steps out
-
-### Frustrations
-- "I arrive at 7am and sometimes I'm still waiting at 1pm. I've missed classes, I've missed parent meetings."
-- Doesn't know when to arrive because early arrival doesn't guarantee early service
-- Has had to abandon appointments twice because the queue was too long
-
-### Jobs to Be Done
-> *When I have a hospital appointment, I want to know exactly how long I will wait so I can plan my day around it — not my day around the uncertainty.*
-
-### Technology Comfort
-Comfortable with M-Pesa, WhatsApp, and basic apps. Would use USSD if the interface is simple.
+**Age:** 34
+**Occupation:** Small business owner (mama mboga)
+**Location:** Eastlands, Nairobi
+**Facility:** Visits public outpatient 3–4 times per year
 
 ---
 
-## Persona 2 — The Rural Traveller
-
-**Name:** Joseph, 52
-**Occupation:** Smallholder farmer
-**Location:** Murang'a (2 hours from Nairobi Level 5 facility)
-**Primary device:** Feature phone (calls + SMS + M-Pesa only)
-
-### Background
-Joseph travels to the referral hospital every 3–4 months for diabetes management. The journey costs him KES 800 return and a full day. He often brings a family member to help navigate the system.
-
-### Goals
-- Make the trip worth the journey — get seen and leave with medication
-- Know before he travels whether he will actually be seen that day
-
-### Frustrations
-- Has arrived after a 2-hour matatu ride to find the system full for that day
-- Cannot phone the hospital to check capacity — the lines are always busy
-- Has no way to reschedule without making the journey
-
-### Jobs to Be Done
-> *When I travel from upcountry for my appointment, I need to know before I leave whether I will be seen — because the trip itself costs me a full day and KES 800.*
-
-### Technology Comfort
-Feature phone only. Must have USSD or SMS option. Will not use a smartphone app.
+**Background**
+Jane runs a vegetable stall six days a week. Every hour away from her stall is income lost. She has a feature phone (Safaricom) and uses M-Pesa daily. Her eldest son has a smartphone. She is comfortable with SMS and USSD but has never downloaded a health app.
 
 ---
 
-## Persona 3 — The Overloaded Nurse
-
-**Name:** Grace, 29
-**Occupation:** OPD Triage Nurse, Level 4 Hospital, Kiambu
-**Experience:** 4 years
-
-### Background
-Grace manages the morning triage rush at a peri-urban facility that was designed for 200 daily patients but typically sees 350+. She has one colleague on most shifts. She also fields patient complaints, manages the physical queue, and records vitals — simultaneously.
-
-### Goals
-- Know in real time how many patients are in the queue and at what stage
-- Be able to redirect patients to the correct department without manual coordination
-- Reduce the number of confrontations with frustrated patients about wait times
-
-### Frustrations
-- "People get angry at us for the wait time. We're not the ones causing it — we have no control over it."
-- Has no system visibility — counts heads manually to estimate wait time
-- Paper records create errors when patients register twice or give inconsistent information
-
-### Jobs to Be Done
-> *When I'm running triage, I need real-time visibility into the queue so I can manage patient expectations honestly and prioritise urgent cases — instead of managing chaos with a clipboard.*
-
-### Technology Comfort
-Uses a basic hospital system for record entry. Comfortable with tablets. Wants simple, fast interfaces — no training time.
+**Goals**
+- Get medical care without losing a full day of income
+- Know when she actually needs to be at the facility
+- Feel treated with dignity despite the public system's constraints
 
 ---
 
-## Persona Gaps
+**Frustrations**
+- Arriving at 5:30am and still waiting at noon with no update
+- Not knowing if she can leave briefly without losing her place
+- Having no way to verify she is in the correct queue
+- Watching younger, more aggressive patients jump ahead
 
-The following personas are identified but not yet fully developed (primary research needed):
-- **Hospital Administrator** — facility-level visibility and reporting needs
-- **NHIF Claims Processor** — data requirements from the queue system
-- **Biomedical Technician** — equipment readiness data linked to appointment scheduling
+---
+
+**Behaviors**
+- Arrives early as a strategy to manage uncertainty (it doesn't work)
+- Has left without care once — went to a chemist instead (health risk)
+- Uses her son's smartphone when navigating unfamiliar digital tasks
+- Shares information about good days/times with neighbors informally
+
+---
+
+**Quote**
+*"If someone told me 'you are number 47, estimated wait is 2 hours' — I would go get breakfast and come back. The problem is not waiting. It is not knowing."*
+
+---
+
+**What She Needs From This Product**
+- SMS queue number and estimated wait when she registers
+- SMS update when she is 30 minutes from being called
+- A way to leave briefly and know her position is held
+- Simple, no-data-required interaction
+
+---
+
+## Persona 2 — The Clinical Staff
+
+### Nurse Mary — The Overwhelmed Coordinator
+
+**Age:** 41
+**Role:** Triage Nurse
+**Experience:** 12 years
+**Facility:** Level 4 public hospital, urban
+
+---
+
+**Background**
+Mary manages morning triage for an outpatient department that sees 300–400 patients daily. She has two registration clerks under her supervision. She is deeply committed to patient care but spends 1–2 hours every morning on queue logistics rather than clinical work. She has seen one technology system fail and is skeptical but not closed-minded.
+
+---
+
+**Goals**
+- Start clinical work from the moment she arrives, not queue management
+- Have visibility into who is waiting, how long, and who is urgent
+- Resolve the daily conflict of patients arguing about queue position
+- Have data to show administration where bottlenecks actually are
+
+---
+
+**Frustrations**
+- Conflict between patients she has to mediate every single morning
+- No proof of arrival order — disputes are unresolvable without it
+- Previous technology broke and was never fixed — she lost faith
+- Administration measures throughput but ignores abandonment
+
+---
+
+**Behaviors**
+- Maintains a handwritten ledger as her primary queue record
+- Calls patients by name from memory when the queue is manageable
+- Flags urgent patients by putting them on a separate list
+- Discusses bottlenecks with colleagues informally but has no formal channel
+
+---
+
+**Quote**
+*"By 8am I have already spent one hour just organizing the line. That is one hour I am not doing clinical work."*
+
+---
+
+**What She Needs From This Product**
+- Real-time dashboard showing queue status, wait times, position
+- Automatic timestamp proof of registration (resolves disputes)
+- Ability to flag and promote urgent cases without disrupting the queue
+- Offline functionality — the system cannot be internet-dependent
+- Abandonment tracking built into the workflow automatically
