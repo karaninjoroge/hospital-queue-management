@@ -1,83 +1,62 @@
 # Hospital Queue Management Platform
 
-> Reducing patient waiting time in Kenyan public hospitals from 4+ hours to under 90 minutes
+**Type:** PM Case Study
+**Domain:** HealthTech
+**Author:** Karani Njoroge
+**Status:** In Progress
+**Last Updated:** June 2026
 
 ---
 
-## Project Status
+## The Problem in One Sentence
 
-| Stage | Status |
+Kenyan public hospitals average 3–6 hour outpatient wait times, causing patients to abandon care and clinical staff to burn out managing disorganized physical queues.
+
+---
+
+## Project Summary
+
+This case study documents the complete product management process for designing a digital queue management platform for Kenyan public health facilities. It covers every stage from problem framing through launch planning and retrospective.
+
+---
+
+## Navigation
+
+| Document | Description |
 |---|---|
-| Problem Definition | ✅ Complete |
-| User Research | 🔄 In Progress |
-| Personas & Journey Maps | ⬜ Planned |
-| Competitor Analysis | ⬜ Planned |
-| MVP Definition | ⬜ Planned |
-| PRD | ⬜ Planned |
-| Wireframes | ⬜ Planned |
-| Roadmap | ⬜ Planned |
-| Metrics Design | ⬜ Planned |
-
----
-
-## The Problem in One Paragraph
-
-Kenya's public hospitals serve millions of patients who cannot afford private care. The average outpatient wait time at a Level 4 or Level 5 facility exceeds 4 hours — driven not by patient volume alone, but by manual queue systems, no-show rates above 35%, and no real-time visibility for clinical staff. Patients lose full workdays. Nurses manage chaos instead of care. The system fails everyone.
+| [Problem Statement](problem-statement.md) | Precise problem framing |
+| [Opportunity Analysis](opportunity-analysis.md) | Why this problem, why now |
+| [Research Plan](research/research-plan.md) | How I approached discovery |
+| [User Interviews](research/user-interviews.md) | Raw interview documentation |
+| [Interview Synthesis](research/interview-synthesis.md) | Patterns and key insights |
+| [Personas](research/personas.md) | Patient and nurse personas |
+| [Journey Map](analysis/journey-map.md) | End-to-end experience map |
+| [Competitor Analysis](analysis/competitor-analysis.md) | Market landscape |
+| [MVP Definition](product/mvp-definition.md) | Scope and rationale |
+| [Prioritization](product/prioritization.md) | RICE scoring and decisions |
+| [User Stories](product/user-stories.md) | Acceptance criteria |
+| [PRD](product/prd.md) | Full product requirements |
+| [Roadmap](product/roadmap.md) | Phased delivery plan |
+| [Metrics](launch/metrics.md) | Success measurement |
+| [Launch Plan](launch/launch-plan.md) | Go-to-market approach |
+| [Retrospective](launch/retrospective.md) | What I learned |
 
 ---
 
 ## PM Skills Demonstrated
 
-- User research design and execution
 - Problem framing and opportunity sizing
-- Persona development from primary research
-- Journey mapping across multiple user types
-- Competitive analysis (local and global alternatives)
-- MVP scoping with RICE prioritisation
-- PRD writing
-- Roadmap construction (Now/Next/Later)
-- Success metrics and North Star definition
-- Launch planning
+- User research design and execution
+- Persona development from interview synthesis
+- Journey mapping across patient and staff workflows
+- Competitive analysis and gap identification
+- MVP scoping and feature prioritization using RICE
+- PRD writing with clear acceptance criteria
+- Metrics design including north star metric selection
+- Go-to-market planning for a public health context
 
 ---
 
-## Repository Structure
+## Key Insight
 
-```
-hospital-queue-management/
-├── README.md                    ← you are here
-├── problem-statement.md         ← the problem, precisely defined
-├── opportunity-analysis.md      ← market sizing and timing
-├── research/
-│   ├── research-plan.md         ← methodology and questions
-│   ├── user-interviews.md       ← interview notes and synthesis
-│   ├── personas.md              ← 3 primary personas
-│   └── journey-map.md           ← current state + future state
-├── competitor-analysis.md       ← 5 alternatives analysed
-├── mvp-definition.md            ← smallest thing that tests the thesis
-├── prioritisation.md            ← RICE scoring for all features
-├── user-stories.md              ← full backlog
-├── prd.md                       ← product requirements document
-├── wireframes/                  ← Figma links + exported screens
-├── roadmap.md                   ← Now / Next / Later
-├── metrics.md                   ← North Star + supporting metrics
-├── launch-plan.md               ← go-to-market strategy
-├── retrospective.md             ← what I'd do differently
-├── lessons-learned.md           ← PM lessons from this project
-└── assets/                      ← images, diagrams, research data
-```
-
----
-
-## Domain Context
-
-**Why this problem:**
-My biomedical engineering background includes healthcare systems and clinical environments. I have first-hand exposure to the operational failures in Kenyan public hospitals. This is not a hypothetical problem I selected from a list — it is a real, observable, high-stakes failure that affects millions of Kenyans every year.
-
-**Constraints that matter:**
-- Many patients own feature phones only — any solution must have USSD or SMS fallback
-- Hospital staff are under-resourced and cannot adopt high-training-cost systems
-- Internet connectivity at public facilities is unreliable
-- Budget constraints rule out expensive hardware installations
-
-These constraints make this a harder and more interesting product problem than a queue app for a Western context.
+The core problem is not wait time — it is uncertainty. Patients tolerate long waits when they know their position and expected wait. The product opportunity is not speed, it is visibility and control.
