@@ -1,77 +1,72 @@
 # Research Plan — Hospital Queue Management Platform
 
-> **Version:** 1.0 | **Status:** Active | **Author:** Dennis Karani Njoroge
+**Author:** Karani Njoroge
+**Date:** June 2026
+**Research Phase:** Discovery
 
 ---
 
-## Research Objectives
+## Research Goals
 
-1. Understand the actual lived experience of patients navigating OPD queues
-2. Understand the workflow constraints facing front-desk staff and nurses
-3. Identify which pain points are acute enough to change behaviour
-4. Understand technology access and literacy across both user groups
-5. Identify what solutions have been tried and why they failed
+1. Understand the emotional and practical experience of waiting at a public hospital
+2. Map the current queue management workflow from the nurse/staff perspective
+3. Identify the specific moments of highest friction for both groups
+4. Validate or invalidate our core hypothesis about uncertainty vs. wait time
 
 ---
 
 ## Research Questions
 
-### For patients:
-- Walk me through your last hospital visit from the moment you left home.
-- What was the worst part of waiting? What did you do during that time?
-- Have you ever abandoned a hospital visit because the queue was too long? What happened?
-- Do you own a smartphone? How do you primarily use your phone for communication?
-- If you could change one thing about the experience, what would it be?
+**For Patients:**
+- Walk me through your last visit to a public outpatient department from the moment you decided to go.
+- At what point did you feel most frustrated? Most relieved?
+- Have you ever left without being seen? What made you make that decision?
+- How do you currently know where you are in the queue?
+- What would make the experience feel fair, even if the wait stayed the same?
 
-### For hospital staff:
-- Walk me through a typical morning at OPD check-in.
-- When does the queue become unmanageable? What do you do when that happens?
-- What information do you wish you had that you currently don't?
-- What systems have been tried in this facility before? Why did they fail?
-- What would make your job meaningfully easier?
+**For Clinical Staff (Nurses, Registration Clerks):**
+- Describe how you manage patient flow at the start of a busy morning.
+- What takes up the most of your time that has nothing to do with clinical care?
+- What breaks down most often in your current system?
+- Have you used any tools (paper, apps, anything) to manage queues? What worked and what didn't?
+- If you could change one thing about the morning rush, what would it be?
 
 ---
 
 ## Methodology
 
-| Method | Target | Sample Size | Timeline |
-|---|---|---|---|
-| In-depth interviews | Patients (OPD visitors) | 8–10 | Week 1–2 |
-| In-depth interviews | Hospital staff (nurses, front desk) | 4–6 | Week 1–2 |
-| Observation | OPD check-in process | 2 half-day sessions | Week 1 |
-| Secondary research | Academic + government data | — | Ongoing |
+- Semi-structured interviews: 3 patients + 3 clinical staff
+- Duration: 30–45 minutes per interview
+- Setting: In-person where possible, remote where not
+- Recording: Notes only (no audio without consent)
 
 ---
 
-## Recruitment Criteria
+## Participant Criteria
 
 **Patients:**
-- Adults 18+ who have visited a public hospital OPD in the last 3 months
-- Mix of urban (Nairobi) and peri-urban locations
-- Mix of smartphone and feature phone users
+- Visited a public outpatient department in the last 6 months
+- Mix of age groups (18–35, 35–55, 55+)
+- Mix of urban and peri-urban facilities
 
-**Staff:**
-- Front desk / registration staff at Level 4 or Level 5 facility
-- Nurses working in OPD triage
-
----
-
-## What I Will NOT Do
-
-- I will not lead with solutions ("would you use an app that...") — this is The Mom Test principle
-- I will not ask hypothetical questions about future behaviour
-- I will not conduct surveys before I understand the problem through conversation
+**Clinical Staff:**
+- Nurse, clinical officer, or registration clerk
+- Working at a Level 3, 4, or 5 public facility
+- At least 1 year at current facility
 
 ---
 
-## Synthesis Plan
+## Timeline
 
-After interviews: affinity mapping → key themes → "jobs to be done" statements → persona drafts → journey map
+| Activity | Timeline |
+|---|---|
+| Participant recruitment | Week 1 |
+| Interviews | Week 2 |
+| Synthesis and affinity mapping | Week 3 |
+| Persona and journey map development | Week 3–4 |
 
 ---
 
-## Research Ethics
+## Success Criteria
 
-- All participants will give verbal informed consent
-- No personally identifiable information will be stored in this repository
-- Interview notes will be anonymised (Patient A, Patient B, etc.)
+We will know research is complete when we can confidently answer: What is the single biggest source of pain, and is it something a technology product can meaningfully reduce?
