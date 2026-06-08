@@ -1,56 +1,52 @@
 # Problem Statement — Hospital Queue Management Platform
 
-> **Version:** 1.0 | **Last updated:** 2024 | **Author:** Dennis Karani Njoroge
+**Author:** Karani Njoroge
+**Date:** June 2026
+**Version:** 1.0
 
 ---
 
-## The Problem Statement
+## The Problem
 
-> "Patients attending outpatient departments at Kenyan public hospitals lose an average of 4–6 hours per visit to queue management failures — not to clinical care. This is caused by manual, paper-based registration systems, no-show rates above 35% with no cancellation mechanism, and zero real-time visibility for clinical and administrative staff. The consequence is preventable loss of productivity, deteriorating health outcomes from appointment abandonment, and demoralised healthcare workers spending their shift managing crowds instead of delivering care."
+Public outpatient departments in Kenyan hospitals operate on a first-come, first-served physical queue system. Patients arrive before dawn to secure early positions, wait 3–6 hours in crowded waiting rooms, and have no visibility into their position or expected wait time. Between 15–30% of patients leave without being seen.
 
----
-
-## Problem Breakdown
-
-### Who experiences this problem?
-- **Patients** — lose full workdays, often abandon appointments, travel long distances to face 4+ hour waits
-- **Nurses and front-desk staff** — manage manual crowd control instead of doing clinical work
-- **Hospital administrators** — have no visibility into actual throughput or capacity utilisation
-- **Doctors** — experience irregular patient flow, alternating between overload and gaps
-
-### What are the root causes?
-1. **No digital registration** — paper-based systems cannot scale or be queried in real time
-2. **No cancellation mechanism** — patients who cannot attend have no way to release their slot
-3. **No real-time visibility** — staff cannot see queue length, wait time, or bottlenecks
-4. **No appointment reminders** — no-show rates stay high because there is no pre-visit communication
-5. **Single-channel intake** — patients must arrive in person to join a queue
-
-### What evidence exists?
-- Kenya National Hospital Insurance Fund (NHIF) data shows average Level 4/5 OPD wait times
-- Published academic research on queue management failures in sub-Saharan Africa
-- Personal observation from healthcare settings (biomedical engineering background)
-- *(Primary research via patient and staff interviews — in progress)*
+Clinical staff simultaneously manage patient flow manually — calling names, managing confusion, and handling conflict from patients who lose their queue position — time that should be spent on care.
 
 ---
 
-## What This Problem Is NOT
+## Who Experiences This Problem
 
-- This is not primarily a capacity problem (hospitals have enough appointments — they lose them to no-shows)
-- This is not a clinical outcomes problem directly (though poor queue management contributes to abandonment and delayed care)
-- This is not a technology access problem alone (feature phone penetration is >90% in Kenya via Safaricom)
-
----
-
-## The Opportunity Statement
-
-> "If we can reduce no-show rates by 20% and give clinical staff real-time queue visibility, we can recover an estimated 30–40% of lost daily appointment capacity at zero increase in facility cost — improving patient experience, staff morale, and health outcomes simultaneously."
+**Primary:** Outpatient patients at public health facilities (Levels 3–5)
+**Secondary:** Nurses and clinical officers managing registration and triage
+**Tertiary:** Hospital administrators responsible for facility throughput metrics
 
 ---
 
-## Success Looks Like
+## The Cost of This Problem
 
-In 6 months from launch at a pilot facility:
-- Average OPD wait time reduced from 240+ minutes to under 90 minutes
-- No-show rate reduced from ~35% to under 20%
-- Staff time spent on manual queue management reduced by 50%
-- Patient satisfaction score (NPS or equivalent) improved by 20+ points
+For patients:
+- Lost income from full-day waits (majority are informal sector workers)
+- Abandonment of care leading to disease progression
+- Stress and dignity erosion from crowded, uncertain waiting
+
+For clinical staff:
+- Queue management consuming 20–40% of working time
+- Conflict with frustrated patients
+- Burnout from administrative overload
+
+For the health system:
+- Artificially low throughput disguising actual facility capacity
+- No data to identify bottlenecks or improve flow
+- Patient outcomes worsened by care abandonment
+
+---
+
+## What We Are Not Solving
+
+This is not a problem of insufficient doctors or clinical capacity. Adding a queue management layer does not solve staffing shortages. We are solving the coordination and information problem within existing capacity constraints.
+
+---
+
+## The Specific Hypothesis
+
+If patients can register remotely, receive real-time queue position updates, and arrive closer to their actual service time, abandonment rates will fall and clinical staff will reclaim time currently lost to manual queue management.
